@@ -1,5 +1,11 @@
 {
   "name": "FutabaNAGP1250_Stream",
+  "author": "Pietro Leoni",
+  "version": "1.0.0",
+  "main": "stream.js",
+  "scripts": {
+    "start": "node stream.js"
+  },
   "dependencies": {
     "buffer-transpose": "^1.0.2",
     "cobs": "^0.2.1",
