@@ -1,0 +1,7 @@
+.pio
+.vscode
+node_modules
+*.mp4
+!videoplayback.mp4
+*.mov
+.DS_Store

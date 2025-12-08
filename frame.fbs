@@ -1,0 +1,11 @@
+namespace Futaba;
+
+enum FrameType : byte { Full = 0, Delta = 1 }
+
+table Frame {
+  type: FrameType;
+  data: [ubyte];
+  crc32: uint; // Add Checksum
+}
+
+root_type Frame;
